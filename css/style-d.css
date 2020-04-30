@@ -1,0 +1,285 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+h2 {
+    font-size: 3rem;
+}
+
+.section-title {
+    margin: 4rem auto 3rem 4rem;
+}
+
+
+
+/* Navigation Bar */
+.header {
+    background-color: #111111;
+    padding: 4rem 2.5rem;
+}
+
+.header .navbar-brand {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+}
+
+.header .navbar-nav a {
+    color: #ababab;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    background-color: #111111;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 90vh;
+}
+
+.banner a {
+    text-decoration: none;
+}
+
+.aboutme-content {
+    margin: 7rem 2rem 4rem 4rem;
+    padding: 3rem;
+}
+
+.aboutme-content h1 {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.aboutme-content h2 {
+    color: #ababab;
+    margin-bottom: 2rem;
+}
+
+.aboutme-pic {
+    margin: 6rem 2rem;
+}
+
+.aboutme-pic .card {
+    margin: auto;
+}
+
+.aboutme-pic .card .card-body {
+    text-align: center;
+}
+
+.aboutme-pic .card .card-body a{
+    font-size: xx-large;
+}
+
+/* Projects */
+
+
+.section-title h2{
+    border-bottom: solid 2px gray;
+    padding-bottom: 1rem;
+    margin-right: 4rem
+}
+
+
+
+.project-1, .project-2, .project-3, .project-4 {
+    margin: 4rem;
+    display: flex;
+}
+
+.project-1-pic, .project-2-pic, .project-3-pic
+, .project-4-pic {
+    padding: 1rem;
+    box-shadow: 0 0 20px #5b7fa0;
+}
+
+.project-1-details, .project-2-details, .project-3-details, .project-4-details {
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.project-1-details h2 {
+    font-size: 4rem;
+}
+
+.project-1-details h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.project-1-details p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.project-2-details h2 {
+    font-size: 4rem;
+}
+
+.project-2-details h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.project-2-details p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.project-3-details h2 {
+    font-size: 4rem;
+}
+
+.project-3-details h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.project-3-details p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.project-4-details h2 {
+    font-size: 4rem;
+}
+
+.project-4-details h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.project-4-details p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.tech-used-list {
+    list-style: none;
+}
+
+.tech-used-item {
+    margin: 1.5rem;
+    font-size: larger;
+}
+
+.tech-used-item:hover {
+    box-shadow: 0 0 20px #dddddd69;
+}
+
+.study-btn {
+    margin: 0.5rem;
+}
+
+.collapse a {
+    text-decoration: none;
+}
+
+/* Testimonials */
+
+
+.testimonial p {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.testimonial .carousel {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.testimonial-profile {
+    margin-top: 3rem;
+}
+
+.testimonial-pic img {
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.testimonial-details {
+    display: flex;
+}
+
+.testimonial-comments {
+    text-align: center;
+    margin: auto 4rem;
+    padding: 1rem;
+}
+
+/* Contact */
+.contact-me {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 4rem 0 3rem 4rem;
+}
+
+.contact-contents {
+    display: flex;
+    justify-content: end;
+}
+
+.contact-description h3 {
+    color: #ababab;
+}
+
+.contact-details ul li {
+    list-style: none;
+}
+
+.contact-description {
+    margin: 0;
+    padding: 3rem;
+}
+
+.contact-details {
+    margin: auto;
+}
+
+.contact-details ul li {
+    margin: 1rem 0.5rem;
+}
+
+.contact-details ul li i {
+    margin-right: 1rem;
+}
+
+.contact-details ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Footer */
+.footer {
+    padding: 1rem 2rem;
+    text-align: center;
+    background: #000000f0;
+    color: white;
+}
+
+.footer  p i {
+    margin: 0.75rem;
+}

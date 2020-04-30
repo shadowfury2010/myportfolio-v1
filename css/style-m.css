@@ -1,0 +1,156 @@
+/* Reset */
+.main-container {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+.section-title h2 {
+    font-size: xx-large;
+    border-bottom: double 6px gray;
+    padding-bottom: 1rem;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.section-title {
+    margin: auto;
+    text-align: center;
+}
+
+.top-pad {
+    padding-top: 2rem;
+}
+
+/* Header */
+.header {
+    padding: 1.5rem;
+}
+
+
+/* Banner */
+.banner {
+    flex-direction: column;
+    padding: inherit;
+    height: inherit;
+}
+
+.aboutme-content {
+    padding: 2rem;
+    margin: 0;
+}
+
+.aboutme-content h1 {
+    font-size: xx-large;
+}
+
+.aboutme-content h2 {
+    font-size: large;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+
+.aboutme-pic {
+    margin:inherit;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.aboutme-btn {
+    margin-top: 4rem;
+}
+
+/* Projects */
+
+.project-1, .project-2, .project-3, .project-4 {
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-1-pic, .project-2-pic, .project-3-pic
+, .project-4-pic {
+    margin:auto;
+    padding: 1rem;
+    box-shadow: 0 0 20px #5b7fa0;
+}
+
+.project-pic img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.project-head h2 {
+    font-size: x-large;
+}
+
+.project-head h3 {
+    font-size: large;
+}
+
+.project-head p {
+    font-size: small;
+}
+
+.tech-used-item {
+    font-size: smaller;
+}
+
+/* Testimonials */
+
+
+.testimonial p {
+    margin-top: 1.5rem;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.testimonial .carousel {
+    font-size: small;
+    font-weight: inherit;
+}
+
+.testimonial-profile {
+    margin-top: 3rem;
+}
+
+.testimonial-pic img {
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.testimonial-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-comments {
+    text-align: center;
+    margin: auto 4rem;
+    padding: 1rem;
+}
+
+
+/* Contact */
+
+.aboutme-content h1 {
+    font-size: xx-large;
+}
+
+.aboutme-content h3 {
+    font-size: large;
+    font-weight: 400;
+}
+
+.contact-contents {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.contact-me  {
+    margin: 0;
+    padding: 0;
+}
